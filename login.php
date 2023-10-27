@@ -493,6 +493,7 @@ if(isset($_POST['login'])){
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
 </head>
 <body>
     <main>
@@ -521,13 +522,13 @@ if(isset($_POST['login'])){
                     };
                 ?>
                 <div class="actual-form">
-                  <div class="input-wrap">
-                    <input type="text" minlength="4" class="input-field" autocomplete="off" required />
-                    <label>Username</label>
+                <div class="input-wrap">
+                    <input name="email" type="email" minlength="4" class="input-field" autocomplete="off" required />
+                    <label>Email</label>
                   </div>
   
                   <div class="input-wrap">
-                    <input type="password" minlength="4" class="input-field" autocomplete="off" required />
+                    <input type="password" name="password" minlength="4" class="input-field" autocomplete="off" required />
                     <label>Password</label>
                   </div>
   
