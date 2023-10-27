@@ -43,7 +43,7 @@
         <div class="header-bottom">
             <div class="container">
                 <a href="#" class="logo">
-                    <img src="./assets/images/textlogo.png" alt="Ghardekho logo">
+                    <img src="./assets/images/textlogo.png" alt="Ghardekho logo" width="100%" height="10%">
                 </a>
                 <nav class="navbar" data-navbar>
                     <div class="navbar-top">
