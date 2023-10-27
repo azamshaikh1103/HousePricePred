@@ -499,7 +499,7 @@ if(isset($_POST['login'])){
         <div class="box">
           <div class="inner-box">
             <div class="forms-wrap">
-              <form action="login.php" autocomplete="off" class="sign-in-form">
+              <form action="" method="post" autocomplete="off" class="sign-in-form">
                 <div class="logoo">
                   <img src="./assets/images/" alt="Ghardekho" />
                   <h4>Ghardekho</h4>
@@ -540,7 +540,7 @@ if(isset($_POST['login'])){
                 </div>
               </form>
   
-              <form action="index.php" method="post" autocomplete="off" class="sign-up-form">
+              <form action="" method="post" autocomplete="off" class="sign-up-form">
                 <div class="logoo">
                   <img src="./assets/images/" alt="Ghardekho" />
                   <h4>Ghardekho</h4>

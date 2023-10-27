@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
 
 </head>
 <body>
@@ -42,13 +43,13 @@
         <div class="header-bottom">
             <div class="container">
                 <a href="#" class="logo">
-                    <img src="./assets/images/logo.jpg" alt="Ghardekho logo">
+                    <img src="./assets/images/textlogo.png" alt="Ghardekho logo">
                 </a>
                 <nav class="navbar" data-navbar>
                     <div class="navbar-top">
-                        <a href="#" class="logo">
-                            <img src="./assets/images/logo.jpg" alt="Ghardekho logo">
-                        </a>
+                        <!-- <a href="#" class="logo">
+                            <img src="./assets/images/textlogo.png" alt="Ghardekho logo">
+                        </a> -->
                         <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
                             <ion-icon name="close-outline"></ion-icon>
                         </button>
